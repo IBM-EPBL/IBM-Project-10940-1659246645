@@ -14,6 +14,12 @@ assessment of dietary intake and customized feedback
 or improve the measurement of dietary.
 - This project helps the people to guide and maintain their nurtitional health under all circumstances.
 - Project status: Active
+## Team Members Name
+Team ID-PNT2022TMI00034
+1. Allan Jacob P
+2. Abishek R
+3. Achutha Mallikarjuna
+4. Janesh
 
 
 
