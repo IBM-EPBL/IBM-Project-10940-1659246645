@@ -16,10 +16,10 @@ or improve the measurement of dietary.
 - Project status: Active
 ## Team Members Name
 Team ID-PNT2022TMI00034
-1. Allan Jacob P
+1. Allan Jacob P (Team Lead)
 2. Abishek R
 3. Achutha Mallikarjuna
-4. Janesh
+4. Janesh C
 
 
 
