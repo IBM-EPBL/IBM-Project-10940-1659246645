@@ -14,6 +14,13 @@ assessment of dietary intake and customized feedback
 or improve the measurement of dietary.
 - This project helps the people to guide and maintain their nurtitional health under all circumstances.
 - Project status: Active
+## Work Flow of the Project
+- User interacts with the Web App to Load an image.
+- The image is passed to the server application, which uses Clarifai's AI-Driven Food Detection Model Service to analyze the images and Nutrition API to provide nutritional information about the analyzed Image.
+- Nutritional information of the analyzed image is returned to the app for display. 
+## Technical Architecture
+![Technical Architecture](https://user-images.githubusercontent.com/84091792/197408296-fd3ccf24-678f-480f-83f1-e90b6d3c83c3.png)
+
 ## Team Members Name
 Team ID-PNT2022TMI00034
 1. Allan Jacob P (Team Lead)
