@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}{% endblock %}</title>
+  <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+</head>
+<body>
+  <section class="nav_container">
+    <!-- <div class="logo">
+      <a href="home.html"><h2>Smart Fashion</h2></a>
+    </div>
+    <nav class="navMenu">
+        <a href="{{ url_for('home') }}">Home</a>
+        <a href="#">profile</a>
+        <a href="{{ url_for('logout') }}">Logout</a>
+    </nav> -->
+  </section>
+  <div class="content">
+    {% block content %}{% endblock %}
+  </div>
+</body>
+</html>
