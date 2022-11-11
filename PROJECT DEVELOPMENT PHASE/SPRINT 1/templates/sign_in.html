@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrition Assistant Application</title>
+    <link rel="stylesheet" href="../static/CSS/style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+</head>
+<body>
+  <div class="container">
+    <div class="screen">
+      <div class="screen__content">
+        <form class="login" action="login" method="post">
+          <h1>SIGN IN</h1>
+          <div>{{msg}}</div>
+
+          <div class="text_field">
+            <label>Email</label>
+            <div class="inp">
+              <input type="text" class="input_field"  name="email" >
+            </div>    
+         </div>
+
+         <div class="text_field">
+          <label>Password</label>
+          <div class="inp">
+            <input type="password" class="input_field" name="password" >
+          </div>    
+       </div>
+
+          <button class="form_control" type="submit">
+            <span class="button__text">Log In Now</span>
+            
+          </button>	
+          			
+        </form>
+
+        <p class="signup_link">Don't have account? <span><a class="signin" href="/signup">Sign Up</a></span></p>
+        <p class="signup_link">Team ID-PNT2022TMID00034</p>
+        
+      </div>    
+    </div>
+   
+  </div>
+</body>
+</html>
